@@ -1,0 +1,160 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\ActiveRide\Install\Setup
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\Software FX Shared\Cfx4032.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\ActiveRide\Install\Users.csv=
+C:\ActiveRide\Install\CARS.ICO=
+C:\ActiveRide\Install\CCMAPP.H86=
+C:\ActiveRide\Install\Configuration.csv=
+C:\ActiveRide\Install\DiagnosticCodes.csv=
+C:\ActiveRide\Install\FirmwareTargets.csv=
+C:\ActiveRide\Install\Graphing.csv=
+C:\ActiveRide\Install\ME2_092002.csv=
+C:\ActiveRide\Install\Parameters.csv=
+C:\ActiveRide\Install\REMAPP.H86=
+C:\ActiveRide\Install\SecurityLevels.csv=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\ActiveRide\VB6 Source\ActiveRide.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Spread60\Bin\SPR32X60.ocx=Yes
+C:\WINDOWS\system32\mfc42.dll=Yes
+C:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+C:\WINDOWS\system32\COMCT332.OCX=Yes
+C:\WINDOWS\system32\MSCOMM32.OCX=Yes
+C:\WINDOWS\system32\TABCTL32.OCX=Yes
+C:\Program Files\Common Files\Software FX Shared\Cfx4032.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\ActiveRide\Install\Users.csv=Yes
+C:\ActiveRide\Install\CARS.ICO=Yes
+C:\ActiveRide\Install\CCMAPP.H86=Yes
+C:\ActiveRide\Install\Configuration.csv=Yes
+C:\ActiveRide\Install\DiagnosticCodes.csv=Yes
+C:\ActiveRide\Install\FirmwareTargets.csv=Yes
+C:\ActiveRide\Install\Graphing.csv=Yes
+C:\ActiveRide\Install\ME2_092002.csv=Yes
+C:\ActiveRide\Install\Parameters.csv=Yes
+C:\ActiveRide\Install\REMAPP.H86=Yes
+C:\ActiveRide\Install\SecurityLevels.csv=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\ActiveRide\VB6 Source\ActiveRide.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Spread60\Bin\SPR32X60.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mfc42.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Software FX Shared\Cfx4032.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\ActiveRide\Install\Users.csv=$(AppPath)
+C:\ActiveRide\Install\CARS.ICO=$(AppPath)
+C:\ActiveRide\Install\CCMAPP.H86=$(AppPath)
+C:\ActiveRide\Install\Configuration.csv=$(AppPath)
+C:\ActiveRide\Install\DiagnosticCodes.csv=$(AppPath)
+C:\ActiveRide\Install\FirmwareTargets.csv=$(AppPath)
+C:\ActiveRide\Install\Graphing.csv=$(AppPath)
+C:\ActiveRide\Install\ME2_092002.csv=$(AppPath)
+C:\ActiveRide\Install\Parameters.csv=$(AppPath)
+C:\ActiveRide\Install\REMAPP.H86=$(AppPath)
+C:\ActiveRide\Install\SecurityLevels.csv=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\ActiveRide\VB6 Source\ActiveRide.exe=No
+C:\ActiveRide\Install\Users.csv=No
+C:\ActiveRide\Install\CARS.ICO=No
+C:\ActiveRide\Install\CCMAPP.H86=No
+C:\ActiveRide\Install\Configuration.csv=No
+C:\ActiveRide\Install\DiagnosticCodes.csv=No
+C:\ActiveRide\Install\FirmwareTargets.csv=No
+C:\ActiveRide\Install\Graphing.csv=No
+C:\ActiveRide\Install\ME2_092002.csv=No
+C:\ActiveRide\Install\Parameters.csv=No
+C:\ActiveRide\Install\REMAPP.H86=No
+C:\ActiveRide\Install\SecurityLevels.csv=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=ActiveRide
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=ActiveRide
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|ActiveRide]
+Icon1=ActiveRide.exe
+Title1=ActiveRide
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\ActiveRide\Install\Setup
+ProjectFolder=C:\ActiveRide\VB6 Source
+ServerSideCab=
+File1=C:\ActiveRide\Install\Setup\setup.exe
+File2=C:\ActiveRide\Install\Setup\Setup.Lst
+File3=C:\ActiveRide\Install\Setup\ActiveRide.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

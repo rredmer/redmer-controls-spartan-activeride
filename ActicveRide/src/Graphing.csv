@@ -1,0 +1,184 @@
+View,Parameter,Units,Format,ID,Min,Max,Left Front,Right Front,Left Rear,Right Rear,Left Tag,Right Tag,Central
+0,A_DFTSNFC,in,%00.2f,32,0,15,0,0,0,0,xxx,xxx,xxx
+0,A_DFTSNFD,in,%00.2f,60,0,15,0.0025,0.0025,0.0025,0.0025,0.01,0.01,xxx
+0,A_SNFC,in,%00.2f,61,0,15,0.001,0.001,0.001,0.001,0.01,0.01,xxx
+0,A_SNFD,in,%00.2f,79,0,15,1.00E-05,1.00E-05,1.00E-05,1.00E-05,0.01,0.01,xxx
+0,A_DFTUNF,in,%00.2f,37,0,10,0.48,0.48,0.48,0.48,0.01,0.01,xxx
+0,A_INTUNF,in,%00.2f,38,0,10,0.48,0.48,0.48,0.48,0.01,0.01,xxx
+0,A_UNF,in,%00.2f,39,0,10,0.005,0.005,0.005,0.005,0.01,0.01,xxx
+1,ANGLE,Degrees,%00.2f,122,-65,65,xxx,xxx,xxx,xxx,xxx,xxx,1
+1,ANGLE_RAW_A/D,Degrees,%00.2f,119,0,127,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,ANGLE_FILT_A/D,Degrees,%00.2f,125,0,127,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,ANGLE_0,Degrees,%00.2f,16,0,127,0.5,0.5,0.5,0.5,xxx,xxx,1
+0,ANGLE_NORM,Degrees,%00.2f,120,-65,65,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,ANGLE_LTI,Degrees,%00.2f,121,-65,65,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,Ac,in^2,%00.2f,98,0,10,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,Ar,in^2,%00.2f,99,0,10,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,BIAS,Lbs,%d,79,0,500,1,1,1,1,1,1,xxx
+0,BRAKE_A,G,%00.2f,10,-1,1,1,1,1,1,0.01,0.01,xxx
+0,BRAKE,T/F,%d,18,0,1,xxx,xxx,xxx,xxx,xxx,xxx,6553.5
+0,dRAdt,G/Sec,%00.2f,116,-2,2,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,dPAdt,G/Sec,%00.2f,122,-2,2,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,DELTA_C,Duty Cycle,%d,84,0,5000,1,1,1,1,1,1,xxx
+0,DELTA_R,Duty Cycle,%d,85,0,5000,1,1,1,1,1,1,xxx
+1,F_C,Lbs,%d,77,0,3000,1.00E-05,1.00E-05,1.00E-05,1.00E-05,1,1,xxx
+1,F_R,Lbs,%d,78,0,3000,0,0,0,0,1,1,xxx
+0,F_CSNF,Lbs,%d,34,0,3000,0.5,0.5,0.5,0.5,1,1,xxx
+0,F_CSNFC,Lbs,%d,84,0,3000,1,1,1,1,1,1,xxx
+0,F_CSNFD,Lbs,%d,85,0,3000,1,1,1,1,1,1,xxx
+0,F_RSNF,Lbs,%d,35,0,3000,0.015,0.015,0.015,0.015,1,1,xxx
+0,F_RSNFC,Lbs,%d,119,0,3000,1,1,1,1,1,1,xxx
+0,F_RSNFD,Lbs,%d,120,0,3000,1,1,1,1,1,1,xxx
+0,F_CUNF,Lbs,%d,40,0,3000,0.0001,0.0001,0.0001,0.0001,1,1,xxx
+0,F_RUNF,Lbs,%d,41,0,3000,0,0,0,0,1,1,xxx
+0,F_CR,Lbs,%d,50,0,3000,0,0,0,0,1,1,xxx
+0,F_RR,Lbs,%d,51,0,3000,0.01,0.01,0.01,0.01,1,1,xxx
+0,F_DRR,Lbs,%d,117,0,3000,1,1,1,1,1,1,xxx
+0,F_DRL,Lbs,%d,118,0,3000,1,1,1,1,1,1,xxx
+0,F_CSNF_RP,Lbs,%d,3,0,3000,0.1,0.1,0.1,0.1,1,1,xxx
+0,F_RSNF_RP,Lbs,%d,4,0,3000,0.01,0.01,0.01,0.01,1,1,xxx
+0,F_SBC,Lbs,%d,5,0,3000,1.00E-05,1.00E-05,1.00E-05,1.00E-05,1,1,xxx
+0,F_CPT,Lbs,%d,58,0,3000,0.0015,0.0015,0.0015,0.0015,1,1,xxx
+0,F_RPT,Lbs,%d,59,0,3000,0.001,0.001,0.001,0.001,1,1,xxx
+0,F_DPTF,Lbs,%d,123,0,3000,1,1,1,1,1,1,xxx
+0,F_DPTB,Lbs,%d,124,0,3000,1,1,1,1,1,1,xxx
+0,F_CBTO,Lbs,%d,42,0,3000,0.0015,0.0015,0.0015,0.0015,1,1,xxx
+0,F_RBTO,Lbs,%d,43,0,3000,0.0025,0.0025,0.0025,0.0025,1,1,xxx
+0,F_CSE,Lbs,%d,95,0,3000,0,0,0,0,1,1,xxx
+0,F_RSE,Lbs,%d,96,0,3000,0,0,0,0,1,1,xxx
+0,F_CPD,Lbs,%d,88,0,3000,5.00E-05,5.00E-05,5.00E-05,5.00E-05,1,1,xxx
+0,F_RPD,Lbs,%d,89,0,3000,5.00E-05,5.00E-05,5.00E-05,5.00E-05,1,1,xxx
+0,F_CAVE,Lbs,%d,65,0,3000,0,0,0,0,1,1,xxx
+0,F_RAVE,Lbs,%d,66,0,3000,2.00E-06,2.00E-06,2.00E-06,2.00E-06,1,1,xxx
+0,F_CSUM,Lbs,%d,67,0,3000,0,0,0,0,1,1,xxx
+0,F_RSUM,Lbs,%d,68,0,3000,0,0,0,0,1,1,xxx
+0,F_CSUMLDC,Lbs,%d,69,0,3000,0,0,0,0,1,1,xxx
+0,F_RSUMLDC,Lbs,%d,70,0,3000,1.00E-05,1.00E-05,1.00E-05,1.00E-05,1,1,xxx
+0,F_CSUMTC,Lbs,%d,71,0,3000,2.00E-05,2.00E-05,2.00E-05,2.00E-05,1,1,xxx
+0,F_RSUMTC,Lbs,%d,72,0,3000,0,0,0,0,1,1,xxx
+0,F_CSUMBDC,Lbs,%d,73,0,3000,1,1,1,1,1,1,0
+0,F_RSUMBDC,Lbs,%d,74,0,3000,1,1,1,1,1,1,0
+0,F_CSUMC,Lbs,%d,75,0,3000,1,1,1,1,1,1,xxx
+0,F_RSUMC,Lbs,%d,76,0,3000,1,1,1,1,1,1,xxx
+0,F_CFLOAT,Lbs,%d,71,0,3000,1,1,1,1,1,1,xxx
+0,F_RFLOAT,Lbs,%d,72,0,3000,1,1,1,1,1,1,xxx
+0,F_CPWM,Duty Cycle,%d,82,0,5000,0,0,0,0,1,1,xxx
+0,F_RPWM,Duty Cycle,%d,83,0,5000,0,0,0,0,1,1,xxx
+0,F_DWC,Lbs,%d,91,-3000,3000,0,0,0,0,1,1,xxx
+0,F_DWR,Lbs,%d,92,-3000,3000,1.00E-09,1.00E-09,1.00E-09,1.00E-09,1,1,xxx
+0,F_WUCC,Lbs,%d,93,-3000,3000,1.00E-09,1.00E-09,1.00E-09,1.00E-09,1,1,xxx
+0,F_WUCR,Lbs,%d,94,-3000,3000,0,0,0,0,1,1,xxx
+0,G_A/D,Steps,%d,13,0,32,20,20,20,20,xxx,xxx,1
+0,GAIN_RPRIDE,Gain,%00.2f,15,0,2,20,20,20,20,0.01,0.01,xxx
+0,GAIN_SNFRIDE,Gain,%00.2f,16,0,2,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,K_COMPCM,Lb/in,%d,8,0,50000,6.50E-07,6.50E-07,6.50E-07,6.50E-07,1,1,xxx
+0,K_COMPRM,Lb/in,%d,9,0,50000,6.50E-08,6.50E-08,6.50E-08,6.50E-08,1,1,xxx
+0,K_SSNF,Gain,%00.2f,17,0,1,16.7,16.7,16.7,16.7,0.01,0.01,xxx
+0,K_SRP,Gain,%00.2f,18,0,1,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,K_SBTO,Gain,%00.2f,19,0,1,0,0,0,0,0.01,0.01,xxx
+0,K_SS,Gain,%00.2f,2,0,1,1,1,1,1,0.01,0.01,xxx
+0,K_EXPSE,Gain,%00.2f,97,0,2,0,0,0,0,0.01,0.01,xxx
+0,LOAD_COMP,Gain,%00.2f,63,0,2,0,0,0,0,0.01,0.01,xxx
+1,P,in,%00.2f,28,-15,15,4.8,4.8,4.8,4.8,0.01,0.01,xxx
+0,P_A/D,in,%00.2f,23,-15,15,0.03,0.03,0.03,0.03,0.01,0.01,xxx
+0,P_ABS,in,%00.2f,26,-15,15,2,2,2,2,0.01,0.01,xxx
+0,P_ABSLTI,in,%00.2f,64,-15,15,0,0,0,0,0.01,0.01,xxx
+0,P_BTO,in,%00.2f,22,-15,15,0.31,0.31,0.31,0.31,0.01,0.01,xxx
+0,P_LTI ,in,%00.2f,27,-15,15,4.8,4.8,4.8,4.8,0.01,0.01,xxx
+0,P_O,in,%00.2f,24,-15,15,5,5,5,5,0.01,0.01,xxx
+0,P_C,in,%00.2f,56,-15,15,0.0014,0.0014,0.0014,0.0014,0.01,0.01,xxx
+0,P_D,in,%00.2f,53,-15,15,0.0014,0.0014,0.0014,0.0014,0.01,0.01,xxx
+0,P_SNFC,in,%00.2f,36,-15,15,0.025,0.025,0.025,0.025,0.01,0.01,xxx
+0,P_SNFD,in,%00.2f,57,-30,30,0.001,0.001,0.001,0.001,0.01,0.01,xxx
+0,P_PD,in,%00.2f,90,0,10,0,0,0,0,0.01,0.01,xxx
+0,PRES,psi,%d,14,0,2000,10,10,10,10,xxx,xxx,1
+0,PRES_A/D,psi,%d,12,0,2000,8.3,8.3,8.3,8.3,xxx,xxx,1
+0,PRES_LTI,psi,%d,13,0,100,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PITCH,G,%00.2f,48,-2,2,0,0,0,0,0.01,0.01,xxx
+0,PT_A,G,%00.2f,6,-2,2,4.00E-05,4.00E-05,4.00E-05,4.00E-05,xxx,xxx,0.01
+0,PT_AIN,G,%000.3f,7,-2,2,2.50E-06,2.50E-06,2.50E-06,2.50E-06,xxx,xxx,0.005
+0,PT_A0,G,%000.3f,8,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,PT_ANORM,G,%000.3f,10,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,PT_ALTI,G,%000.3f,9,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,PT_ACT,in,%00.2f,54,-15,15,0.0005,0.0005,0.0005,0.0005,0.01,0.01,xxx
+0,PT_LTI ,in,%00.2f,52,-15,15,0.02,0.02,0.02,0.02,0.01,0.01,xxx
+0,PT_INT,in,%00.2f,55,-15,15,0.0014,0.0014,0.0014,0.0014,0.01,0.01,xxx
+0,PWM_C,Duty Cycle,%d,86,0,5000,1,1,1,1,1,1,xxx
+0,PWM_R,Duty Cycle,%d,87,0,5000,1,1,1,1,1,1,xxx
+0,PUMP_ENABLE,T/F,%d,7,0,1,1,1,1,1,1,1,xxx
+0,ROLL,G,%00.2f,49,-2,2,0.02,0.02,0.02,0.02,0.01,0.01,xxx
+0,R_A,G,%00.2f,1,-2,2,2.5,2.5,2.5,2.5,xxx,xxx,0.01
+0,R_AIN,G,%000.3f,2,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,R_A0,G,%000.3f,3,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,R_ANORM,G,%000.3f,5,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,R_ALTI,G,%000.3f,4,-2,2,xxx,xxx,xxx,xxx,xxx,xxx,0.005
+0,R_ACT,in,%00.2f,46,-15,15,0.0167,0.0167,0.0167,0.0167,0.01,0.01,xxx
+0,R_LTI,in,%00.2f,44,-15,15,0.0025,0.0025,0.0025,0.0025,0.01,0.01,xxx
+0,R_INT,in,%00.2f,47,-15,15,0.0025,0.0025,0.0025,0.0025,0.01,0.01,xxx
+0,STEER_A,G,%00.2f,11,-2,2,3,3,3,3,0.01,0.01,xxx
+0,SPEED,MPH,%d,12,0,128,1,1,1,1,1,1,xxx
+0,SPEED_A/D,MPH,%d,11,0,128,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,SQUAT_ON,T/F,%d,17,0,1,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,SET,in,%00.2f,25,-15,15,2,2,2,2,0.01,0.01,xxx
+0,T_A/D,Deg F,%d,20,-50,250,1.6,1.6,1.6,1.6,1,1,xxx
+0,T_COMP,Deg F,%00.2f,22,0,1,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,T_O,Deg F,%d,21,0,125,8,8,8,8,1,1,xxx
+0,THROTTLE,%,%d,15,0,100,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,V_P,ips,%00.2f,31,-150,150,0.001,0.001,0.001,0.001,0.01,0.01,xxx
+0,V_FLOAT,ips,%00.2f,45,-150,150,0.01,0.01,0.01,0.01,0.01,0.01,xxx
+0,V_A/D,ips,%00.2f,29,-150,150,0,0,0,0,0.01,0.01,xxx
+0,X_COMPC,in,%000.3f,80,0,5,0,0,0,0,0.001,0.001,xxx
+0,X_COMPR,in,%000.3f,81,0,5,0,0,0,0,0.001,0.001,xxx
+0,Test_Pressure,psi,%d,123,0,2000,xxx,xxx,xxx,xxx,xxx,xxx,1
+1,Raw A/D Batt,mV,%d,112,0,1023,1,1,1,1,1,1,xxx
+1,Raw A/D Pos,mV,%d,114,0,1023,1,1,1,1,1,1,xxx
+1,Raw A/D Temp,mV,%d,111,0,1023,1,1,1,1,1,1,xxx
+0,Raw A/D Vcc,0,%d,113,0,1023,1,1,1,1,1,1,xxx
+0,Raw A/D Vel,0,%d,115,0,1023,1,1,1,1,1,1,xxx
+0,Stats Bkg Avg,0,%d,106,0,50000,0.1,0,0.1,0.1,1,1,0.1
+0,Stats Bkg Max,0,%d,108,0,50000,0.1,0,0.1,0.1,1,1,0.1
+0,Stats Bkg Min,0,%d,107,0,50000,0.1,0,0.1,0.1,1,1,0
+0,Stats Free Mem Cur,0,%d,109,0,16384,0,0,0,0,1,1,0
+0,Stats Free Mem Min,0,%d,110,0,16384,1,1,1,1,1,1,1
+0,Stats Long Avg,%,%00.1f,103,0,100,0.1,0,0.1,0.1,1,1,0
+0,Stats Long Max,%,%00.1f,105,0,100,0.1,0,0.1,0.1,1,1,0
+0,Stats Long Min,%,%00.1f,104,0,100,0.1,0,0.1,0.1,1,1,0.1
+0,Stats Short Avg,%,%00.1f,100,0,100,1,1,1,1,1,1,1
+0,Stats Short Max,%,%00.1f,102,0,100,0,0,0,0,1,1,0.1
+0,Stats Short Min,%,%00.1f,101,0,100,0,0,0,0,1,1,0.1
+0,LEAK_LF,sec,%d,130,0,10000,xxx,xxx,xxx,xxx,xxx,xxx,0
+0,LEAK_RF,sec,%d,131,0,10000,xxx,xxx,xxx,xxx,xxx,xxx,0
+0,LEAK_LR,sec,%d,132,0,10000,xxx,xxx,xxx,xxx,xxx,xxx,0
+0,LEAK_RR,sec,%d,133,0,10000,xxx,xxx,xxx,xxx,xxx,xxx,0
+0,P_AS_LF,in,%00.2f,126,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,P_AS_RF,in,%00.2f,127,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,P_AS_LR,in,%00.2f,128,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,P_AS_RR,in,%00.2f,129,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,PRES_COMP,Gain,%00.2f,125,0,5,1,1,1,1,1,1,xxx
+0,PRES_A/D,psi,%d,148,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_O_LF,psi,%d,156,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_O_RF,psi,%d,157,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_O_LR,psi,%d,158,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_O_RR,psi,%d,159,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_TK,psi,%d,134,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_LF,psi,%d,135,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_RF,psi,%d,136,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_LR,psi,%d,137,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,PRES_RR,psi,%d,138,0,150,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,SET_LF,in,%00.2f,139,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,SET_RF,in,%00.2f,140,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,SET_LR,in,%00.2f,141,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,SET_RR,in,%00.2f,142,-10,10,xxx,xxx,xxx,xxx,xxx,xxx,0.01
+0,AS_MODE,Mode,%d,143,0,11,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,FAIL_FLAGS_LF,Bit Mask,%d,144,0,128,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,FAIL_FLAGS_RF,Bit Mask,%d,145,0,128,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,FAIL_FLAGS_LR,Bit Mask,%d,146,0,128,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,FAIL_FLAGS_RR,Bit Mask,%d,147,0,128,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,VALVE_LF,Bit,%d,149,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,VALVE_RF,Bit,%d,150,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,VALVE_LR,Bit,%d,151,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,VALVE_RR,Bit,%d,152,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,VALVE_TANK,Bit,%d,153,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,VALVE_EXHAUST,Bit,%d,154,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+0,NOT_PUMP,bit,%d,155,0,2,xxx,xxx,xxx,xxx,xxx,xxx,1
+1,Raw_Steering_AD,Val,%d,203,0,1200,xxx,xxx,xxx,xxx,xxx,xxx,0

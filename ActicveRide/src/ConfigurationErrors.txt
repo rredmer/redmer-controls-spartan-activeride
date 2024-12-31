@@ -1,0 +1,12 @@
+
+===== FarPoint Technologies, Inc. 15-Jul-04  09:21AM =====
+===== Start of Loading text file into FarPoint Spread Control. =====
+
+Col	Row	Information
+---   	---	-------------------------------------------------------------
+n/a	n/a	Spread has successfully loaded text data into 0 cols and 0 rows
+		from TEXT file (C:\Dev\SpartanMotors\ActiveRide\VB6 Source\Configuration.csv).
+
+===== End of loading text file  =====
+===== FarPoint Technologies, Inc. =====
+

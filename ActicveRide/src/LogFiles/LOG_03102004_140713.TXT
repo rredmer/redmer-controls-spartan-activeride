@@ -1,0 +1,2 @@
+03/10/2004:02:07:13PM:00000050.833:INFOR:Created log file (C:\ActiveRide\VB6 Source\LogFiles\LOG_03102004_140713.TXT)
+03/10/2004:02:07:13PM:00000050.833:DEBUG:Loading Error Handling Form.

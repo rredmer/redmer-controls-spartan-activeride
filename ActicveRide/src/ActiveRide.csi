@@ -1,0 +1,16 @@
+[History]
+B0=ActiveRide/MainForm/GetParameter
+B1=ActiveRide/SetupSerialPort/CreateCommandPacket
+B2=ActiveRide/SetupSerialPort/GetAllParameters
+B3=ActiveRide/SetupSerialPort/CreateAckPacket
+B4=ActiveRide/SetupSerialPort/CreateGetPacket
+B5=ActiveRide/SetupSerialPort/ProcessCommand
+B6=ActiveRide/MainForm/ToolsMenu_Click
+B7=ActiveRide/FirmwareDownload/ValidateFirmwareFile
+B8=ActiveRide/SetupSerialPort/NodeIndex
+B9=ActiveRide/FirmwareDownload/InsertData
+B10=ActiveRide/FirmwareDownload/NodesStartDownload
+B11=ActiveRide/MainForm/Calibrate
+B12=ActiveRide/MainForm/PutAllParameters
+B13=ActiveRide/SetupSerialPort
+B14=ActiveRide/SetupSerialPort/ComSend

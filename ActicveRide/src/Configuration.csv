@@ -1,0 +1,16 @@
+Type,LF,RF,LR,RR,Cmd,Description
+Algorithm,0,0,0,0,202,Sprung Natural Frequency
+Algorithm,0,0,0,0,205,Unsprung Natural Frequency
+Algorithm,0,0,0,0,201,Bottom/Top Out
+Algorithm,0,0,0,0,203,Roll
+Algorithm,0,0,0,0,204,Pitch
+Algorithm,0,0,0,0,208,Load Compensation
+Diagnostic,0,0,0,0,101,Position Sensor
+Diagnostic,0,0,0,0,102,Velocity Sensor
+Diagnostic,0,0,0,0,103,Temperature Sensor
+Diagnostic,0,0,0,0,104,Speed Sensor
+Diagnostic,0,0,0,0,105,Pitch Sensor
+Diagnostic,0,0,0,0,106,Roll Sensor
+Diagnostic,0,0,0,0,107,Compression Solenoid
+Diagnostic,0,0,0,0,108,Rebound Solenoid
+Diagnostic,0,0,0,0,109,CAN Bus

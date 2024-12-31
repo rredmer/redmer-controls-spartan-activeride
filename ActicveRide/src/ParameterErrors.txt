@@ -1,0 +1,13 @@
+
+===== FarPoint Technologies, Inc. 19-Jun-03  01:36PM =====
+===== Start of export of FarPoint Spread data to TEXT file C:\ActiveRide\VB6 Source\K216290-10.csv. =====
+
+You must provide one of the defined values for the Flags parameter.
+Col	Row	Information
+---   	---	-------------------------------------------------------------
+n/a	n/a	Spread has successfully exported columns -1 through -1,
+		rows -1 through -1 to TEXT file (C:\ActiveRide\VB6 Source\K216290-10.csv).
+
+===== End of text export         =====
+===== FarPoint Technologies, Inc. =====
+
